@@ -1,13 +1,11 @@
 const barbara = document.querySelector('.barbara')
 const slider = document.querySelector('.slider')
-const leftArm = document.querySelector('#Leftarm')
-const rightArm = document.querySelector('#Rightarm')
 
 const t1 = new TimelineMax();
 
 t1.fromTo(barbara, 1, {height: "0%"}, {height: "100%", ease: Sine.easeInOut})
   .fromTo(barbara, 1, {width: "100%"}, {width: "100%", ease: Sine.easeInOut})
-  .fromTo(slider, 2, {x: "-100%"}, {x: "0%", ease: Sine.easeInOut}, "-=2");
+  .fromTo(slider, 2, {x: "-100%"}, {x: "50%", ease: Sine.easeInOut}, "-=2");
   
 
 
