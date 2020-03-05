@@ -238,7 +238,7 @@ nav ul{
 }
 
 .queenty{
-    color:palevioletred;
+    color:aquamarine;
     font-size: 18px;
 }
 
@@ -422,9 +422,9 @@ nav ul{
     letter-spacing:1px;
 }
 
-.star:hover{
+/* .star:hover{
      background-color:pink;
-}
+} */
 
 .askterisk{
     font-size:15px;
