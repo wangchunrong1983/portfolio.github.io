@@ -460,10 +460,11 @@ nav ul{
     grid-template-columns: repeat(2, 1fr);
     grid-gap:1.5rem;
     animation: move 1s forwards;
+    opacity:1;
 }
 
 .image-group a:hover{
-    opacity:1;
+    opacity:.2;
     color:white;
 }
 
