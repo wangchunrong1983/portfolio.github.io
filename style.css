@@ -462,6 +462,12 @@ nav ul{
     animation: move 1s forwards;
 }
 
+.image-group a hover,
+.image-group a focus{
+    opacity:1;
+    color:white;
+}
+
 .my-description{
     padding-top: 15px;
     margin-bottom:0;
@@ -643,7 +649,7 @@ nav ul{
         grid-template-columns: 2;
         width:100%;
         height:auto;
-        padding-top: 100px;
+        padding-top: 200px;
     }
      .my-info > div{
        flex:1;
