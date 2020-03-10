@@ -462,8 +462,8 @@ nav ul{
     animation: move 1s forwards;
 }
 
-.image-group a hover,
-.image-group a focus{
+.image-group a:hover,
+.image-group a:focus{
     opacity:1;
     color:white;
 }
